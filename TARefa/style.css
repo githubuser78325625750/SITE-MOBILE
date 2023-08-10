@@ -1,6 +1,11 @@
-:root {
+@import url("styles/header.css");
 
-    --cor-de-fundo: #eeeeee
+
+:root {
+    --cor-de-fundo: #eeeeee;
+    --branco: #FFFFFF;
+    --laranja: #eb9b00;
+    --azul-degrade: #0000FF;
 }
 body {
   background-color: var(--cor-de-fundo);
@@ -8,8 +13,5 @@ body {
 
 }
 
-h1 {
-    background-color: white;
 
 
-}
